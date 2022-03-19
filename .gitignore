@@ -1,1 +1,9 @@
-ECHO is on.
+env
+*.exe
+*.pyc
+*database.sql
+*__
+*.log
+*.debug
+secrets.py
+__pycache__
