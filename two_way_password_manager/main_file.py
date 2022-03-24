@@ -36,13 +36,13 @@ class PasswordManager:
 
 
 def main():
-    password = {
-        "email":"dum1",
-        "facebook":"dum2",
-        "youtube":"dum3",
-        "hello":"dum4",
+    # password = {
+    #     "email":"dum1",
+    #     "facebook":"dum2",
+    #     "youtube":"dum3",
+    #     "hello":"dum4",
 
-    }
+    # }
 
     pm = PasswordManager()
 
@@ -71,7 +71,7 @@ q) quit
             pm.create_password_file(path, password)
         elif choice == '4':
             path = input('Enter path: ')
-            pm.load_password_file(path, password)
+            pm.load_password_file(path)
         elif choice == '5':
             site = input('Enter site: ')
             password = input('Enter the password: ')
